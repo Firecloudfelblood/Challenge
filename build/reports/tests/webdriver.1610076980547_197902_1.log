@@ -1,0 +1,206 @@
+[1610076980.676][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2128
+[1610076980.676][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610076980.962][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/grimripper/IdeaProjects/Challenge/build/downloads/1610076977969_197902_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/grimripper/IdeaProjects/Challenge/build/downloads/1610076977969_197902_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610076980.963][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/grimripper/IdeaProjects/Challenge/build/downloads/1610076977969_197902_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610076980.963][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610076980.963][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.26YQhR data:,
+[1610076981.290][INFO]: resolved localhost to ["127.0.0.1"]
+[1610076981.307][INFO]: resolved localhost to ["127.0.0.1"]
+[1610076981.422][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "/tmp/.com.google.Chrome.26YQhR"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:36683"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c6d2374489c120ee552a623961ecb332"
+}
+[1610076981.494][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND MaximizeWindow {
+
+}
+[1610076981.494][INFO]: Waiting for pending navigations...
+[1610076981.494][INFO]: Done waiting for pending navigations. Status: ok
+[1610076981.596][INFO]: Waiting for pending navigations...
+[1610076981.597][INFO]: Done waiting for pending navigations. Status: ok
+[1610076981.597][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE MaximizeWindow {
+   "height": 985,
+   "width": 1920,
+   "x": 0,
+   "y": 27
+}
+[1610076981.604][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610076981.604][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE SetTimeouts
+[1610076981.613][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND Navigate {
+   "url": "https://www.jetbrains.com/"
+}
+[1610076981.613][INFO]: Waiting for pending navigations...
+[1610076981.613][INFO]: Done waiting for pending navigations. Status: ok
+[1610076983.647][INFO]: Waiting for pending navigations...
+[1610077011.613][SEVERE]: Timed out receiving message from renderer: 27.966
+[1610077011.613][INFO]: Timed out. Stopping navigation...
+[1610077011.614][SEVERE]: Timed out receiving message from renderer: 27.966
+[1610077011.614][INFO]: Done waiting for pending navigations. Status: timeout: Timed out receiving message from renderer: 27.966
+[1610077011.614][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE Navigate ERROR timeout: Timed out receiving message from renderer: 27.966
+  (Session info: chrome=87.0.4280.88)
+[1610077011.626][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND Screenshot {
+
+}
+[1610077011.626][INFO]: Waiting for pending navigations...
+[1610077011.626][INFO]: Done waiting for pending navigations. Status: ok
+[1610077021.627][SEVERE]: Timed out receiving message from renderer: 10.000
+[1610077021.628][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1610077031.628][SEVERE]: Timed out receiving message from renderer: 10.000
+[1610077031.628][INFO]: Waiting for pending navigations...
+[1610077031.629][INFO]: Done waiting for pending navigations. Status: ok
+[1610077041.632][SEVERE]: Timed out receiving message from renderer: 10.000
+[1610077041.632][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1610077051.633][SEVERE]: Timed out receiving message from renderer: 10.000
+[1610077051.633][INFO]: Waiting for pending navigations...
+[1610077053.581][INFO]: Done waiting for pending navigations. Status: ok
+[1610077053.729][INFO]: Waiting for pending navigations...
+[1610077053.730][INFO]: Done waiting for pending navigations. Status: ok
+[1610077053.730][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAORCAYAAAATZ7/rAAABLGlDQ1BTa2lhAAAokX2Rv0rDUBSHP4sIioqgg4ND3FzUJqkVwSK0anFwaRVadUnTNohtDGlEH8DBQfAJBDffwlVHQXDyFQRxcBP8pUVSkHp+3Hu+e+65f869kJpFlpqCth+FpWLeqFQPDPrMcTsBg..."
+[1610077053.762][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1610077053.762][INFO]: Waiting for pending navigations...
+[1610077053.763][INFO]: Done waiting for pending navigations. Status: ok
+[1610077053.786][INFO]: Waiting for pending navigations...
+[1610077053.788][INFO]: Done waiting for pending navigations. Status: ok
+[1610077053.788][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE ExecuteScript "\u003Chtml itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"es-419\">\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Cmeta content=\"origin\" name=\"referrer\">\u003Clink href=\"/manifest?pwa=webhp\" crossorigin=\"use-credential..."
+[1610077054.001][INFO]: [c6d2374489c120ee552a623961ecb332] COMMAND Quit {
+
+}
+[1610077054.051][INFO]: [c6d2374489c120ee552a623961ecb332] RESPONSE Quit
