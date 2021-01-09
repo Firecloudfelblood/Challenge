@@ -31,8 +31,8 @@ public class MicrosoftSearchResultPageTest {
     @Test
     public void clickOnFirstItem(){
         mainPage.searchResult.click();
-        mainPage.nosubscribe.click();
-        assertTrue(mainPage.productPrice.getText() != null);
+        $(byXpath(mainPage.NOSUSCRIBE)).click();
+        assertEquals(mainPage.productPrice.getText(), "$1,199.00");
     }
     @Test
     public void pricesAreTheSame(){
@@ -43,6 +43,13 @@ public class MicrosoftSearchResultPageTest {
     @Test
     public void addToCart(){
         mainPage.addToCart.click();
-        assertEquals("1",mainPage.carQty.text());
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        String val = "1";
+        String page = mainPage.carQty.getText();
+        assertEquals(page,val);
     }
 }

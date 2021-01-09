@@ -16,12 +16,11 @@ public class MainPage {
     public SelenideElement searchTextBox = $("#cli_shellHeaderSearchInput");
     public SelenideElement searchResult = $("#coreui-productplacement-30l7ywa_0");
     public SelenideElement notinterested = $(".glyph-cancel");
-    public SelenideElement productPrice = $("pi-price-text");
+    public SelenideElement productPrice = $(".pi-price-text");
     public SelenideElement addToCart = $("#buttonPanel_AddToCartButton");
     public SelenideElement select = $("select");
     public SelenideElement carQty = $(".shopping-cart-amount");
     public SelenideElement stayInUs =$("#R1MarketRedirect-close");
-    public SelenideElement nosubscribe = $(".dialogPresentationLayer");
 
 
 //    CONSTANTS
@@ -36,6 +35,7 @@ public class MainPage {
     public final String THIRD_PRICE = "//*[@id=\"coreui-productplacement-30l7ywa_2\"]/div/div/span[3]/span[1]";
     public final String CHANGE_STORE = "#R1MarketRedirect-1 :first-child";
     public final String TWENTY_ITEMS_PRICE ="//*[@id=\"store-cart-root\"]/div/div/div/section[2]/div/div/div[2]/div/span/span[2]/strong/span";
+    public final String NOSUSCRIBE ="//*[@id=\"email-newsletter-dialog\"]/div[3]/div[1]";
 
 //    PRICE VAR
     public final String EXPECTED_PRICE = "1,199.00";

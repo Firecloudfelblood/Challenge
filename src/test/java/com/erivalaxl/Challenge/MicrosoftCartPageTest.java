@@ -24,7 +24,7 @@ public class MicrosoftCartPageTest {
     @Test
     public void priceOfTwety(){
         double price = Double.valueOf($(byXpath(mainPage.TWENTY_ITEMS_PRICE)).text().replace("$", "").replace(",",""));
-        double searchPrice = Double.valueOf(mainPage.firstPrice.replace(",",""));
+        double searchPrice = 1199.00;
 
         System.out.println(price);
         System.out.println(searchPrice);
