@@ -11,6 +11,6 @@ Feature:  SearchFeature
     Scenario: Add items to the cart
       Given I click on add to cart
       And I verify al 3 price amount are the same
-      And on the number of items drop down select 20
-      Then I verify the total amount is a unit price * 20
+      And on the number of items drop down select
+      Then I verify the total amount is a unit price
 

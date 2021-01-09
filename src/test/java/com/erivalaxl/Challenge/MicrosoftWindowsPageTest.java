@@ -35,8 +35,10 @@ public class MicrosoftWindowsPageTest {
 
     @Test
     public void doSearch(){
+        mainPage.search.click();
         mainPage.searchTextBox.sendKeys(mainPage.VISUAL_STUDIO);
         mainPage.search.click();
+        mainPage.stayInUs.click();
         assertTrue(mainPage.searchResult.exists());
     }
 }
